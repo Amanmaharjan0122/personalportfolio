@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About  " />
+            <img src={ME} alt="Aboutim" />
           </div>
         </div>
         <div className="about__content">
@@ -26,7 +26,7 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>2 00+ Worldwide</small>
+              <small>200+ Worldwide</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
