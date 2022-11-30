@@ -38,8 +38,8 @@ html {
 body {
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
-  /* background-color: black; */
+  /* background: var(--color-bg); */
+  background-color: black;
   color: var(--color-white);
   line-height: 1.7;
   /* background-image: url(./assets/bg-texture.png); */
@@ -58,6 +58,10 @@ h3,
 h4,
 h5 {
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 h1 {
